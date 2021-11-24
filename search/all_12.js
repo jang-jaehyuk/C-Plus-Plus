@@ -27,5 +27,5 @@ var searchData=
   ['quicksort_24',['quickSort',['../d5/d91/namespacesorting.html#a50b66a1c652291b9a346ec7342967178',1,'sorting']]],
   ['quicksortrp_25',['quickSortRP',['../d1/daa/random__pivot__quick__sort_8cpp.html#a7d2e7465e7b5d54c2de6d5e9db1ea6a5',1,'sorting::random_pivot_quick_sort']]],
   ['quiet_5fnan_26',['quiet_NaN',['http://en.cppreference.com/w/cpp/types/numeric_limits/quiet_NaN.html',0,'std::numeric_limits']]],
-  ['quine_5fmacluskey_2ecpp_27',['quine_macluskey.cpp',['../d3/d83/quine__macluskey_8cpp.html',1,'']]]
+  ['quine_5fmccluskey_2ecpp_27',['quine_mccluskey.cpp',['../df/d2e/quine__mccluskey_8cpp.html',1,'']]]
 ];
