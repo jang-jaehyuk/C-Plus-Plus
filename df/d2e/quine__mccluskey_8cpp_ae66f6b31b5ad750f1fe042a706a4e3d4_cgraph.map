@@ -1,7 +1,9 @@
 <map id="main" name="main">
-<area shape="rect" id="node1" title=" " alt="" coords="5,56,56,83"/>
-<area shape="rect" id="node2" href="$d9/de1/class_mc_cluskey.html#ad361f605665efdf3ca6b137f32cdc2b6" title="This is a function that receives a number from 0 to 15, creates a node, and adds it to the vector." alt="" coords="104,56,261,83"/>
-<area shape="rect" id="node3" href="$d9/de1/class_mc_cluskey.html#ade670fff7c8f07a9698d34c56c370c69" title="function that counts the number of 1" alt="" coords="320,5,455,32"/>
-<area shape="rect" id="node4" href="/Users/runner/work/C-Plus-Plus/C-Plus-Plus/doc/cppreference-doxygen-web.tag.xml$cpp/io/c/fgetc.html#" title=" " alt="" coords="351,56,423,83"/>
-<area shape="rect" id="node5" href="/Users/runner/work/C-Plus-Plus/C-Plus-Plus/doc/cppreference-doxygen-web.tag.xml$cpp/container/vector/push_back.html#" title=" " alt="" coords="309,107,465,133"/>
+<area shape="rect" id="node1" title="Main function." alt="" coords="5,31,56,57"/>
+<area shape="rect" id="node2" href="$df/d2e/quine__mccluskey_8cpp.html#aa8dca7b867074164d5f45b0f3851269d" title="Self&#45;test implementations." alt="" coords="104,31,148,57"/>
+<area shape="rect" id="node3" href="/Users/runner/work/C-Plus-Plus/C-Plus-Plus/doc/cppreference-doxygen-web.tag.xml$cpp/string/basic_string/compare.html#" title=" " alt="" coords="202,5,341,32"/>
+<area shape="rect" id="node4" href="$d9/de1/class_mc_cluskey.html#ac3e85501476e89d34c14af1b3ddb0f9a" title="execution function" alt="" coords="196,56,347,83"/>
+<area shape="rect" id="node5" href="$d9/de1/class_mc_cluskey.html#ae80ae7273e5e62af9c6ebe7cac25e545" title="This is a function that receives a number from 0 to 15, creates a node, and adds it to the vector...." alt="" coords="395,56,552,83"/>
+<area shape="rect" id="node6" href="$d9/de1/class_mc_cluskey.html#ade670fff7c8f07a9698d34c56c370c69" title="function that counts the number of 1" alt="" coords="611,31,745,57"/>
+<area shape="rect" id="node7" href="/Users/runner/work/C-Plus-Plus/C-Plus-Plus/doc/cppreference-doxygen-web.tag.xml$cpp/container/vector/push_back.html#" title=" " alt="" coords="600,81,756,108"/>
 </map>

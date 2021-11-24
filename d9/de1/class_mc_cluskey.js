@@ -7,7 +7,8 @@ var class_mc_cluskey =
     [ "delNotPi", "d9/de1/class_mc_cluskey.html#a99a6b17b3cd1a64d903441ff58c61f6a", null ],
     [ "findEpi", "d9/de1/class_mc_cluskey.html#aae37891337110e08f8c82f0734dde98b", null ],
     [ "mergingBit", "d9/de1/class_mc_cluskey.html#afc73aeee46ac9137a9431d696de1726c", null ],
-    [ "prettyprint", "d9/de1/class_mc_cluskey.html#ab19876c4a4f9b3c20dec7d5a6f5dc0cc", null ],
-    [ "selectNum", "d9/de1/class_mc_cluskey.html#ad361f605665efdf3ca6b137f32cdc2b6", null ],
+    [ "prettyprint", "d9/de1/class_mc_cluskey.html#ac0bcb8c47752e92dc6e808b4d04a6a82", null ],
+    [ "quineExe", "d9/de1/class_mc_cluskey.html#ac3e85501476e89d34c14af1b3ddb0f9a", null ],
+    [ "selectNum", "d9/de1/class_mc_cluskey.html#ae80ae7273e5e62af9c6ebe7cac25e545", null ],
     [ "selectPi", "d9/de1/class_mc_cluskey.html#a359be1debe7c492deb1bb565704842e1", null ]
 ];

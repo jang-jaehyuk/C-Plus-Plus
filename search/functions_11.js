@@ -10,5 +10,6 @@ var searchData=
   ['quicksort_7',['quicksort',['../d5/d91/namespacesorting.html#a9f59fe72dacc1f1218ef3c303d843168',1,'sorting::quicksort(std::vector&lt; T &gt; *arr, int32_t low, int32_t high)'],['../d5/d91/namespacesorting.html#a6eb67c2f91c98cf4464f75b5882022de',1,'sorting::quicksort(std::vector&lt; T &gt; arr, int32_t low, int32_t high)']]],
   ['quicksort_8',['quickSort',['../d5/d91/namespacesorting.html#a50b66a1c652291b9a346ec7342967178',1,'sorting']]],
   ['quicksortrp_9',['quickSortRP',['../d1/daa/random__pivot__quick__sort_8cpp.html#a7d2e7465e7b5d54c2de6d5e9db1ea6a5',1,'sorting::random_pivot_quick_sort']]],
-  ['quiet_5fnan_10',['quiet_NaN',['http://en.cppreference.com/w/cpp/types/numeric_limits/quiet_NaN.html',0,'std::numeric_limits']]]
+  ['quiet_5fnan_10',['quiet_NaN',['http://en.cppreference.com/w/cpp/types/numeric_limits/quiet_NaN.html',0,'std::numeric_limits']]],
+  ['quineexe_11',['quineExe',['../d9/de1/class_mc_cluskey.html#ac3e85501476e89d34c14af1b3ddb0f9a',1,'McCluskey']]]
 ];

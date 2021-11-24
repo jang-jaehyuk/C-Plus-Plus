@@ -1,9 +1,8 @@
 <map id="McCluskey::mergingBit" name="McCluskey::mergingBit">
-<area shape="rect" id="node1" title="function that combines two nodes" alt="" coords="5,132,164,159"/>
+<area shape="rect" id="node1" title="function that combines two nodes" alt="" coords="5,107,164,133"/>
 <area shape="rect" id="node2" href="$d9/de1/class_mc_cluskey.html#a99f36c7ec89a9bd6d087fc652c9a9ba5" title="If there is only one bit difference among the two nodes, a function to know the bit position." alt="" coords="215,5,369,32"/>
 <area shape="rect" id="node3" href="$d9/de1/class_mc_cluskey.html#a2ecc243d3f015b34bb741a995764d86b" title="This function checks how many bits of two nodes are different." alt="" coords="212,56,372,83"/>
 <area shape="rect" id="node4" href="$d9/de1/class_mc_cluskey.html#ade670fff7c8f07a9698d34c56c370c69" title="function that counts the number of 1" alt="" coords="225,107,359,133"/>
-<area shape="rect" id="node5" href="/Users/runner/work/C-Plus-Plus/C-Plus-Plus/doc/cppreference-doxygen-web.tag.xml$cpp/io/c/fprintf.html#" title=" " alt="" coords="253,157,331,184"/>
-<area shape="rect" id="node6" href="/Users/runner/work/C-Plus-Plus/C-Plus-Plus/doc/cppreference-doxygen-web.tag.xml$cpp/container/vector/push_back.html#" title=" " alt="" coords="214,208,370,235"/>
-<area shape="rect" id="node7" href="/Users/runner/work/C-Plus-Plus/C-Plus-Plus/doc/cppreference-doxygen-web.tag.xml$cpp/container/vector/size.html#" title=" " alt="" coords="235,259,349,285"/>
+<area shape="rect" id="node5" href="/Users/runner/work/C-Plus-Plus/C-Plus-Plus/doc/cppreference-doxygen-web.tag.xml$cpp/container/vector/push_back.html#" title=" " alt="" coords="214,157,370,184"/>
+<area shape="rect" id="node6" href="/Users/runner/work/C-Plus-Plus/C-Plus-Plus/doc/cppreference-doxygen-web.tag.xml$cpp/container/vector/size.html#" title=" " alt="" coords="235,208,349,235"/>
 </map>

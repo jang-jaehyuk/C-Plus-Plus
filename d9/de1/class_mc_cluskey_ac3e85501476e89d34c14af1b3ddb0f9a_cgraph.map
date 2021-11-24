@@ -1,0 +1,6 @@
+<map id="McCluskey::quineExe" name="McCluskey::quineExe">
+<area shape="rect" id="node1" title="execution function" alt="" coords="5,31,156,57"/>
+<area shape="rect" id="node2" href="$d9/de1/class_mc_cluskey.html#ae80ae7273e5e62af9c6ebe7cac25e545" title="This is a function that receives a number from 0 to 15, creates a node, and adds it to the vector...." alt="" coords="204,31,361,57"/>
+<area shape="rect" id="node3" href="$d9/de1/class_mc_cluskey.html#ade670fff7c8f07a9698d34c56c370c69" title="function that counts the number of 1" alt="" coords="420,5,555,32"/>
+<area shape="rect" id="node4" href="/Users/runner/work/C-Plus-Plus/C-Plus-Plus/doc/cppreference-doxygen-web.tag.xml$cpp/container/vector/push_back.html#" title=" " alt="" coords="409,56,565,83"/>
+</map>

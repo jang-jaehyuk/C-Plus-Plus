@@ -54,7 +54,7 @@ var searchData=
   ['predict_5fwords_51',['predict_words',['../d3/d26/classdata__structures_1_1trie__using__hashmap_1_1_trie.html#ae15fdc7f2b5023992d87a711d78566c4',1,'data_structures::trie_using_hashmap::Trie']]],
   ['prefix_52',['prefix',['http://en.cppreference.com/w/cpp/regex/match_results/prefix.html',0,'std::wsmatch::prefix()'],['http://en.cppreference.com/w/cpp/regex/match_results/prefix.html',0,'std::match_results::prefix()'],['http://en.cppreference.com/w/cpp/regex/match_results/prefix.html',0,'std::cmatch::prefix()'],['http://en.cppreference.com/w/cpp/regex/match_results/prefix.html',0,'std::wcmatch::prefix()'],['http://en.cppreference.com/w/cpp/regex/match_results/prefix.html',0,'std::smatch::prefix()']]],
   ['preorderiterative_53',['preOrderIterative',['../d9/d12/classothers_1_1iterative__tree__traversals_1_1_binary_tree.html#ad4c6a8e67fb8267a65439b035666b5ae',1,'others::iterative_tree_traversals::BinaryTree']]],
-  ['prettyprint_54',['prettyprint',['../d9/de1/class_mc_cluskey.html#ab19876c4a4f9b3c20dec7d5a6f5dc0cc',1,'McCluskey']]],
+  ['prettyprint_54',['prettyprint',['../d9/de1/class_mc_cluskey.html#ac0bcb8c47752e92dc6e808b4d04a6a82',1,'McCluskey']]],
   ['prev_55',['prev',['http://en.cppreference.com/w/cpp/iterator/prev.html',0,'std']]],
   ['prev_5fpermutation_56',['prev_permutation',['http://en.cppreference.com/w/cpp/algorithm/prev_permutation.html',0,'std']]],
   ['prime_5ffactorization_57',['prime_factorization',['../db/d0d/prime__factorization_8cpp.html#a0ece0145fb29a5cf48378c23dde2da46',1,'prime_factorization.cpp']]],
