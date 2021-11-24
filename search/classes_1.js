@@ -60,7 +60,8 @@ var searchData=
   ['bit_5fand_57',['bit_and',['http://en.cppreference.com/w/cpp/utility/functional/bit_and.html',0,'std']]],
   ['bit_5fnot_58',['bit_not',['http://en.cppreference.com/w/cpp/utility/functional/bit_not.html',0,'std']]],
   ['bit_5for_59',['bit_or',['http://en.cppreference.com/w/cpp/utility/functional/bit_or.html',0,'std']]],
-  ['bitset_60',['bitset',['http://en.cppreference.com/w/cpp/utility/bitset.html',0,'std']]],
-  ['bst_5fnode_61',['bst_node',['../dd/db6/structbinary__search__tree_1_1bst__node.html',1,'binary_search_tree']]],
-  ['btree_62',['Btree',['../d9/d90/struct_btree.html',1,'']]]
+  ['bitnode_60',['BitNode',['../d2/d18/struct_bit_node.html',1,'']]],
+  ['bitset_61',['bitset',['http://en.cppreference.com/w/cpp/utility/bitset.html',0,'std']]],
+  ['bst_5fnode_62',['bst_node',['../dd/db6/structbinary__search__tree_1_1bst__node.html',1,'binary_search_tree']]],
+  ['btree_63',['Btree',['../d9/d90/struct_btree.html',1,'']]]
 ];

@@ -22,7 +22,7 @@ var searchData=
   ['hash_5ffunction_19',['hash_function',['http://en.cppreference.com/w/cpp/container/unordered_map/hash_function.html',0,'std::unordered_map::hash_function()'],['http://en.cppreference.com/w/cpp/container/unordered_multimap/hash_function.html',0,'std::unordered_multimap::hash_function()'],['http://en.cppreference.com/w/cpp/container/unordered_multiset/hash_function.html',0,'std::unordered_multiset::hash_function()'],['http://en.cppreference.com/w/cpp/container/unordered_set/hash_function.html',0,'std::unordered_set::hash_function()']]],
   ['hash_5fsearch_20',['hash_search',['../d1/df3/hash__search_8cpp.html#a36ea13c16028f18ef2d5ff47f3fda7a2',1,'hash_search.cpp']]],
   ['hash_5fsearch_2ecpp_21',['hash_search.cpp',['../d1/df3/hash__search_8cpp.html',1,'']]],
-  ['hashfxn_22',['hashFxn',['../d4/dd2/namespacequadratic__probing.html#a2093d91dd3d377cf0a5c939e45dcefc7',1,'quadratic_probing::hashFxn()'],['../d8/d89/namespacelinear__probing.html#a4bde7a47f98dd1ad24c84038e2608527',1,'linear_probing::hashFxn()'],['../d0/d65/namespacedouble__hashing.html#a0d90726ed1de7b3d2ae261baed048003',1,'double_hashing::hashFxn()']]],
+  ['hashfxn_22',['hashFxn',['../d8/d89/namespacelinear__probing.html#a4bde7a47f98dd1ad24c84038e2608527',1,'linear_probing::hashFxn()'],['../d0/d65/namespacedouble__hashing.html#a0d90726ed1de7b3d2ae261baed048003',1,'double_hashing::hashFxn()'],['../d4/dd2/namespacequadratic__probing.html#a2093d91dd3d377cf0a5c939e45dcefc7',1,'quadratic_probing::hashFxn()']]],
   ['hashing_23',['hashing',['../d6/d0c/namespacehashing.html',1,'']]],
   ['hashmax_24',['HASHMAX',['../d1/df3/hash__search_8cpp.html#a77c722016053a1d484aa177ce205b367',1,'hash_search.cpp']]],
   ['hashtab_25',['hashtab',['../d1/df3/hash__search_8cpp.html#af413b1740073db54796642b0ab814d6d',1,'hash_search.cpp']]],
@@ -52,5 +52,6 @@ var searchData=
   ['house_5frobber_49',['house_robber',['../d2/de1/namespacehouse__robber.html',1,'']]],
   ['house_5frobber_2ecpp_50',['house_robber.cpp',['../d6/d26/house__robber_8cpp.html',1,'']]],
   ['houserobber_51',['houseRobber',['../d6/d26/house__robber_8cpp.html#a1e497c3e3f169afe5baaae6a5d40cbc8',1,'dynamic_programming::house_robber']]],
-  ['hypot_52',['hypot',['http://en.cppreference.com/w/cpp/numeric/math/hypot.html',0,'std']]]
+  ['howmany1_52',['howmany1',['../d2/d18/struct_bit_node.html#a3715a1eed807fdc7195fc048f304ba48',1,'BitNode']]],
+  ['hypot_53',['hypot',['http://en.cppreference.com/w/cpp/numeric/math/hypot.html',0,'std']]]
 ];
