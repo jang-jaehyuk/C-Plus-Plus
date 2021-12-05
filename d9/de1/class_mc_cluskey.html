@@ -152,9 +152,9 @@ Private Attributes</h2></td></tr>
 <tr class="memitem:a8524f2dbf5c2f41fdbe80228f016fe22"><td class="memItemLeft" align="right" valign="top"><a id="a8524f2dbf5c2f41fdbe80228f016fe22" name="a8524f2dbf5c2f41fdbe80228f016fe22"></a>
 <a class="elRef" target="_blank" href="http://en.cppreference.com/w/cpp/container/vector.html">vector</a>&lt; <a class="el" href="../../d2/d18/struct_bit_node.html">BitNode</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>epi</b></td></tr>
 <tr class="separator:a8524f2dbf5c2f41fdbe80228f016fe22"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5c0668bc44958885fe89e5b38522f2bf"><td class="memItemLeft" align="right" valign="top"><a id="a5c0668bc44958885fe89e5b38522f2bf" name="a5c0668bc44958885fe89e5b38522f2bf"></a>
-uint32_t&#160;</td><td class="memItemRight" valign="bottom"><b>select</b> [16]</td></tr>
-<tr class="separator:a5c0668bc44958885fe89e5b38522f2bf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a786cf845c4926fb5e29a1c0334e1ebac"><td class="memItemLeft" align="right" valign="top"><a id="a786cf845c4926fb5e29a1c0334e1ebac" name="a786cf845c4926fb5e29a1c0334e1ebac"></a>
+<a class="elRef" target="_blank" href="http://en.cppreference.com/w/cpp/container/array.html">std::array</a>&lt; uint32_t, 16 &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>select</b></td></tr>
+<tr class="separator:a786cf845c4926fb5e29a1c0334e1ebac"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p >This class is the overall form @for implementing an algorithm. </p>
@@ -185,9 +185,9 @@ uint32_t&#160;</td><td class="memItemRight" valign="bottom"><b>select</b> [16]</
 <p>The selected number is initialized to 1 in this array. </p>
 <p >Initialize the member variable as a constructor. </p>
 <div class="fragment"><div class="line"><a id="l00056" name="l00056"></a><span class="lineno">   56</span>                {</div>
-<div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span>        <a class="code hl_functionRef" target="_blank" href="http://en.cppreference.com/w/cpp/string/byte/memset.html">memset</a>(select, 0, <span class="keyword">sizeof</span>(<span class="keywordtype">int</span>) * 16);</div>
+<div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span>        <a class="code hl_functionRef" target="_blank" href="http://en.cppreference.com/w/cpp/string/wide/wmemset.html">wmemset</a>(select, 0, <span class="keyword">sizeof</span>(<span class="keywordtype">int</span>) * 16);</div>
 <div class="line"><a id="l00058" name="l00058"></a><span class="lineno">   58</span>    }</div>
-<div class="ttc" id="amemset_html"><div class="ttname"><a href="http://en.cppreference.com/w/cpp/string/byte/memset.html">std::memset</a></div><div class="ttdeci">T memset(T... args)</div></div>
+<div class="ttc" id="awmemset_html"><div class="ttname"><a href="http://en.cppreference.com/w/cpp/string/wide/wmemset.html">std::wmemset</a></div><div class="ttdeci">T wmemset(T... args)</div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -558,8 +558,8 @@ Here is the call graph for this function:</div>
 <div class="fragment"><div class="line"><a id="l00258" name="l00258"></a><span class="lineno">  258</span>                                                 {</div>
 <div class="line"><a id="l00259" name="l00259"></a><span class="lineno">  259</span>        <a class="code hl_classRef" target="_blank" href="http://en.cppreference.com/w/cpp/container/vector.html">vector&lt;BitNode&gt;</a> epi;</div>
 <div class="line"><a id="l00260" name="l00260"></a><span class="lineno">  260</span>        <a class="code hl_classRef" target="_blank" href="http://en.cppreference.com/w/cpp/container/vector.html">vector&lt;int&gt;</a> epirow;</div>
-<div class="line"><a id="l00261" name="l00261"></a><span class="lineno">  261</span>        uint32_t picollect[16];</div>
-<div class="line"><a id="l00262" name="l00262"></a><span class="lineno">  262</span>        <a class="code hl_functionRef" target="_blank" href="http://en.cppreference.com/w/cpp/string/byte/memset.html">memset</a>(picollect, 0, <span class="keyword">sizeof</span>(<span class="keywordtype">int</span>) * 16);</div>
+<div class="line"><a id="l00261" name="l00261"></a><span class="lineno">  261</span>        <a class="code hl_classRef" target="_blank" href="http://en.cppreference.com/w/cpp/container/array.html">std::array&lt;uint32_t, 16&gt;</a> picollect;</div>
+<div class="line"><a id="l00262" name="l00262"></a><span class="lineno">  262</span>        <a class="code hl_functionRef" target="_blank" href="http://en.cppreference.com/w/cpp/string/wide/wmemset.html">wmemset</a>(picollect, 0, <span class="keyword">sizeof</span>(<span class="keywordtype">int</span>) * 16);</div>
 <div class="line"><a id="l00263" name="l00263"></a><span class="lineno">  263</span>        <span class="keywordflow">for</span> (uint32_t i = 0; i &lt; pi.<a class="code hl_functionRef" target="_blank" href="http://en.cppreference.com/w/cpp/container/vector/size.html">size</a>(); i++) {              <span class="comment">// Counts the number that became pi</span></div>
 <div class="line"><a id="l00264" name="l00264"></a><span class="lineno">  264</span>            <span class="keywordflow">for</span> (uint32_t j = 0; j &lt; pi[i].v.<a class="code hl_functionRef" target="_blank" href="http://en.cppreference.com/w/cpp/container/vector/size.html">size</a>(); j++) {     <span class="comment">// (since we only have to have one numeric value in the column to find the epi).</span></div>
 <div class="line"><a id="l00265" name="l00265"></a><span class="lineno">  265</span>                picollect[pi[i].v[j]]++;</div>
@@ -647,6 +647,7 @@ Here is the call graph for this function:</div>
 <div class="line"><a id="l00347" name="l00347"></a><span class="lineno">  347</span>        pi.<a class="code hl_functionRef" target="_blank" href="http://en.cppreference.com/w/cpp/container/vector/clear.html">clear</a>();</div>
 <div class="line"><a id="l00348" name="l00348"></a><span class="lineno">  348</span>        <span class="keywordflow">return</span> epi;</div>
 <div class="line"><a id="l00349" name="l00349"></a><span class="lineno">  349</span>    }</div>
+<div class="ttc" id="aarray_html"><div class="ttname"><a href="http://en.cppreference.com/w/cpp/container/array.html">std::array</a></div></div>
 <div class="ttc" id="aclear_html"><div class="ttname"><a href="http://en.cppreference.com/w/cpp/container/vector/clear.html">std::vector::clear</a></div><div class="ttdeci">T clear(T... args)</div></div>
 <div class="ttc" id="acomposite__simpson__rule_8cpp_html_a1b74d828b33760094906797042b89442"><div class="ttname"><a href="../../d4/d18/composite__simpson__rule_8cpp.html#a1b74d828b33760094906797042b89442">numerical_methods::simpson_method::k</a></div><div class="ttdeci">double k(double x)</div><div class="ttdoc">Another test function.</div><div class="ttdef"><b>Definition:</b> composite_simpson_rule.cpp:117</div></div>
 <div class="ttc" id="acomposite__simpson__rule_8cpp_html_a6d8df83a6f26ce24a75d3b358b7f5b8a"><div class="ttname"><a href="../../d4/d18/composite__simpson__rule_8cpp.html#a6d8df83a6f26ce24a75d3b358b7f5b8a">numerical_methods::simpson_method::l</a></div><div class="ttdeci">double l(double x)</div><div class="ttdoc">Another test function.</div><div class="ttdef"><b>Definition:</b> composite_simpson_rule.cpp:119</div></div>
@@ -791,7 +792,7 @@ Here is the call graph for this function:</div>
 <div class="line"><a id="l00357" name="l00357"></a><span class="lineno">  357</span>        <span class="keywordtype">string</span> outst = <span class="stringliteral">&quot;&quot;</span>;</div>
 <div class="line"><a id="l00358" name="l00358"></a><span class="lineno">  358</span>        <span class="keywordflow">for</span> (uint32_t i = 0; i &lt; epi.<a class="code hl_functionRef" target="_blank" href="http://en.cppreference.com/w/cpp/container/vector/size.html">size</a>(); i++) {</div>
 <div class="line"><a id="l00359" name="l00359"></a><span class="lineno">  359</span>            <span class="keywordflow">if</span> ((epi[i].a == 2) &amp;&amp; (epi[i].b == 2) &amp;&amp; (epi[i].c == 2) &amp;&amp; (epi[i].d == 2)) {</div>
-<div class="line"><a id="l00360" name="l00360"></a><span class="lineno">  360</span>                <a class="code hl_functionRef" target="_blank" href="http://en.cppreference.com/w/cpp/io/c/fprintf.html">printf</a>(<span class="stringliteral">&quot;1&quot;</span>);</div>
+<div class="line"><a id="l00360" name="l00360"></a><span class="lineno">  360</span>                <a class="code hl_classRef" target="_blank" href="http://en.cppreference.com/w/cpp/io/basic_ostream.html">cout</a> &lt;&lt; <span class="stringliteral">&quot;1&quot;</span>;</div>
 <div class="line"><a id="l00361" name="l00361"></a><span class="lineno">  361</span>                outst += <span class="stringliteral">&quot;1&quot;</span>;</div>
 <div class="line"><a id="l00362" name="l00362"></a><span class="lineno">  362</span>            }</div>
 <div class="line"><a id="l00363" name="l00363"></a><span class="lineno">  363</span>            <span class="keywordflow">if</span> (epi[i].a == 1) {</div>
@@ -799,46 +800,47 @@ Here is the call graph for this function:</div>
 <div class="line"><a id="l00365" name="l00365"></a><span class="lineno">  365</span>                outst += <span class="stringliteral">&quot;A&quot;</span>;</div>
 <div class="line"><a id="l00366" name="l00366"></a><span class="lineno">  366</span>            }</div>
 <div class="line"><a id="l00367" name="l00367"></a><span class="lineno">  367</span>            <span class="keywordflow">else</span> <span class="keywordflow">if</span> (epi[i].a == 0) {</div>
-<div class="line"><a id="l00368" name="l00368"></a><span class="lineno">  368</span>                <a class="code hl_functionRef" target="_blank" href="http://en.cppreference.com/w/cpp/io/c/fprintf.html">printf</a>(<span class="stringliteral">&quot;A&#39;&quot;</span>);</div>
+<div class="line"><a id="l00368" name="l00368"></a><span class="lineno">  368</span>                <a class="code hl_classRef" target="_blank" href="http://en.cppreference.com/w/cpp/io/basic_ostream.html">cout</a> &lt;&lt; <span class="stringliteral">&quot;A&#39;&quot;</span>;</div>
 <div class="line"><a id="l00369" name="l00369"></a><span class="lineno">  369</span>                outst += <span class="stringliteral">&quot;A&#39;&quot;</span>;</div>
 <div class="line"><a id="l00370" name="l00370"></a><span class="lineno">  370</span>            }</div>
 <div class="line"><a id="l00371" name="l00371"></a><span class="lineno">  371</span>            <span class="keywordflow">if</span> (epi[i].b == 1) {</div>
-<div class="line"><a id="l00372" name="l00372"></a><span class="lineno">  372</span>                <a class="code hl_functionRef" target="_blank" href="http://en.cppreference.com/w/cpp/io/c/fprintf.html">printf</a>(<span class="stringliteral">&quot;B&quot;</span>);</div>
+<div class="line"><a id="l00372" name="l00372"></a><span class="lineno">  372</span>                <a class="code hl_classRef" target="_blank" href="http://en.cppreference.com/w/cpp/io/basic_ostream.html">cout</a> &lt;&lt; <span class="stringliteral">&quot;B&quot;</span>;</div>
 <div class="line"><a id="l00373" name="l00373"></a><span class="lineno">  373</span>                outst += <span class="stringliteral">&quot;B&quot;</span>;</div>
 <div class="line"><a id="l00374" name="l00374"></a><span class="lineno">  374</span>            }</div>
 <div class="line"><a id="l00375" name="l00375"></a><span class="lineno">  375</span>            <span class="keywordflow">else</span> <span class="keywordflow">if</span> (epi[i].b == 0) {</div>
-<div class="line"><a id="l00376" name="l00376"></a><span class="lineno">  376</span>                <a class="code hl_functionRef" target="_blank" href="http://en.cppreference.com/w/cpp/io/c/fprintf.html">printf</a>(<span class="stringliteral">&quot;B&#39;&quot;</span>);</div>
+<div class="line"><a id="l00376" name="l00376"></a><span class="lineno">  376</span>                <a class="code hl_classRef" target="_blank" href="http://en.cppreference.com/w/cpp/io/basic_ostream.html">cout</a> &lt;&lt; <span class="stringliteral">&quot;B&#39;&quot;</span>;</div>
 <div class="line"><a id="l00377" name="l00377"></a><span class="lineno">  377</span>                outst += <span class="stringliteral">&quot;B&#39;&quot;</span>;</div>
 <div class="line"><a id="l00378" name="l00378"></a><span class="lineno">  378</span>            }</div>
 <div class="line"><a id="l00379" name="l00379"></a><span class="lineno">  379</span>            <span class="keywordflow">if</span> (epi[i].c == 1) {</div>
-<div class="line"><a id="l00380" name="l00380"></a><span class="lineno">  380</span>                <a class="code hl_functionRef" target="_blank" href="http://en.cppreference.com/w/cpp/io/c/fprintf.html">printf</a>(<span class="stringliteral">&quot;C&quot;</span>);</div>
+<div class="line"><a id="l00380" name="l00380"></a><span class="lineno">  380</span>                <a class="code hl_classRef" target="_blank" href="http://en.cppreference.com/w/cpp/io/basic_ostream.html">cout</a> &lt;&lt; <span class="stringliteral">&quot;C&quot;</span>;</div>
 <div class="line"><a id="l00381" name="l00381"></a><span class="lineno">  381</span>                outst += <span class="stringliteral">&quot;C&quot;</span>;</div>
 <div class="line"><a id="l00382" name="l00382"></a><span class="lineno">  382</span>            }</div>
 <div class="line"><a id="l00383" name="l00383"></a><span class="lineno">  383</span>            <span class="keywordflow">else</span> <span class="keywordflow">if</span> (epi[i].c == 0) {</div>
-<div class="line"><a id="l00384" name="l00384"></a><span class="lineno">  384</span>                <a class="code hl_functionRef" target="_blank" href="http://en.cppreference.com/w/cpp/io/c/fprintf.html">printf</a>(<span class="stringliteral">&quot;C&#39;&quot;</span>);</div>
+<div class="line"><a id="l00384" name="l00384"></a><span class="lineno">  384</span>                <a class="code hl_classRef" target="_blank" href="http://en.cppreference.com/w/cpp/io/basic_ostream.html">cout</a> &lt;&lt; <span class="stringliteral">&quot;C&#39;&quot;</span>;</div>
 <div class="line"><a id="l00385" name="l00385"></a><span class="lineno">  385</span>                outst += <span class="stringliteral">&quot;C&#39;&quot;</span>;</div>
 <div class="line"><a id="l00386" name="l00386"></a><span class="lineno">  386</span>            }</div>
 <div class="line"><a id="l00387" name="l00387"></a><span class="lineno">  387</span>            <span class="keywordflow">if</span> (epi[i].d == 1) {</div>
-<div class="line"><a id="l00388" name="l00388"></a><span class="lineno">  388</span>                <a class="code hl_functionRef" target="_blank" href="http://en.cppreference.com/w/cpp/io/c/fprintf.html">printf</a>(<span class="stringliteral">&quot;D&quot;</span>);</div>
+<div class="line"><a id="l00388" name="l00388"></a><span class="lineno">  388</span>                <a class="code hl_classRef" target="_blank" href="http://en.cppreference.com/w/cpp/io/basic_ostream.html">cout</a> &lt;&lt; <span class="stringliteral">&quot;D&quot;</span>;</div>
 <div class="line"><a id="l00389" name="l00389"></a><span class="lineno">  389</span>                outst += <span class="stringliteral">&quot;D&quot;</span>;</div>
 <div class="line"><a id="l00390" name="l00390"></a><span class="lineno">  390</span>            }</div>
 <div class="line"><a id="l00391" name="l00391"></a><span class="lineno">  391</span>            <span class="keywordflow">else</span> <span class="keywordflow">if</span> (epi[i].d == 0) {</div>
-<div class="line"><a id="l00392" name="l00392"></a><span class="lineno">  392</span>                <a class="code hl_functionRef" target="_blank" href="http://en.cppreference.com/w/cpp/io/c/fprintf.html">printf</a>(<span class="stringliteral">&quot;D&#39;&quot;</span>);</div>
+<div class="line"><a id="l00392" name="l00392"></a><span class="lineno">  392</span>                <a class="code hl_classRef" target="_blank" href="http://en.cppreference.com/w/cpp/io/basic_ostream.html">cout</a> &lt;&lt; <span class="stringliteral">&quot;D&#39;&quot;</span>;</div>
 <div class="line"><a id="l00393" name="l00393"></a><span class="lineno">  393</span>                outst += <span class="stringliteral">&quot;D&#39;&quot;</span>;</div>
 <div class="line"><a id="l00394" name="l00394"></a><span class="lineno">  394</span>            }</div>
 <div class="line"><a id="l00395" name="l00395"></a><span class="lineno">  395</span>            <span class="keywordflow">if</span> ((i &lt; epi.<a class="code hl_functionRef" target="_blank" href="http://en.cppreference.com/w/cpp/container/vector/size.html">size</a>() - 1) &amp;&amp; (!equalArrays(epi[i].v, epi[i + 1].v, <a class="code hl_functionRef" target="_blank" href="http://en.cppreference.com/w/cpp/algorithm/min.html">min</a>(epi[i].v.size(), epi[i + 1].v.size())))) {</div>
-<div class="line"><a id="l00396" name="l00396"></a><span class="lineno">  396</span>                <a class="code hl_functionRef" target="_blank" href="http://en.cppreference.com/w/cpp/io/c/fprintf.html">printf</a>(<span class="stringliteral">&quot; + &quot;</span>);</div>
+<div class="line"><a id="l00396" name="l00396"></a><span class="lineno">  396</span>                <a class="code hl_classRef" target="_blank" href="http://en.cppreference.com/w/cpp/io/basic_ostream.html">cout</a> &lt;&lt; <span class="stringliteral">&quot; + &quot;</span>;</div>
 <div class="line"><a id="l00397" name="l00397"></a><span class="lineno">  397</span>                outst += <span class="stringliteral">&quot;+&quot;</span>;</div>
 <div class="line"><a id="l00398" name="l00398"></a><span class="lineno">  398</span>            }</div>
 <div class="line"><a id="l00399" name="l00399"></a><span class="lineno">  399</span>            <span class="keywordflow">else</span> <span class="keywordflow">if</span> ((i &lt; epi.<a class="code hl_functionRef" target="_blank" href="http://en.cppreference.com/w/cpp/container/vector/size.html">size</a>() - 1) &amp;&amp; (equalArrays(epi[i].v, epi[i + 1].v, <a class="code hl_functionRef" target="_blank" href="http://en.cppreference.com/w/cpp/algorithm/min.html">min</a>(epi[i].v.size(), epi[i + 1].v.size())))) {</div>
-<div class="line"><a id="l00400" name="l00400"></a><span class="lineno">  400</span>                <a class="code hl_functionRef" target="_blank" href="http://en.cppreference.com/w/cpp/io/c/fprintf.html">printf</a>(<span class="stringliteral">&quot; or &quot;</span>);</div>
+<div class="line"><a id="l00400" name="l00400"></a><span class="lineno">  400</span>                <a class="code hl_classRef" target="_blank" href="http://en.cppreference.com/w/cpp/io/basic_ostream.html">cout</a> &lt;&lt; <span class="stringliteral">&quot; or &quot;</span>;</div>
 <div class="line"><a id="l00401" name="l00401"></a><span class="lineno">  401</span>                outst += <span class="stringliteral">&quot;or&quot;</span>;</div>
 <div class="line"><a id="l00402" name="l00402"></a><span class="lineno">  402</span>            }</div>
 <div class="line"><a id="l00403" name="l00403"></a><span class="lineno">  403</span>        }</div>
 <div class="line"><a id="l00404" name="l00404"></a><span class="lineno">  404</span>        epi.<a class="code hl_functionRef" target="_blank" href="http://en.cppreference.com/w/cpp/container/vector/clear.html">clear</a>();</div>
-<div class="line"><a id="l00405" name="l00405"></a><span class="lineno">  405</span>        <a class="code hl_functionRef" target="_blank" href="http://en.cppreference.com/w/cpp/string/byte/memset.html">memset</a>(select, 0, <span class="keyword">sizeof</span>(<span class="keywordtype">int</span>) * 16);</div>
+<div class="line"><a id="l00405" name="l00405"></a><span class="lineno">  405</span>        <a class="code hl_functionRef" target="_blank" href="http://en.cppreference.com/w/cpp/string/wide/wmemset.html">wmemset</a>(select, 0, <span class="keyword">sizeof</span>(<span class="keywordtype">int</span>) * 16);</div>
 <div class="line"><a id="l00406" name="l00406"></a><span class="lineno">  406</span>        <span class="keywordflow">return</span> outst;</div>
 <div class="line"><a id="l00407" name="l00407"></a><span class="lineno">  407</span>    }</div>
+<div class="ttc" id="abasic_ostream_html"><div class="ttname"><a href="http://en.cppreference.com/w/cpp/io/basic_ostream.html">std::cout</a></div></div>
 <div class="ttc" id="amin_html"><div class="ttname"><a href="http://en.cppreference.com/w/cpp/algorithm/min.html">std::min</a></div><div class="ttdeci">T min(T... args)</div></div>
 </div><!-- fragment --><div class="dynheader">
 Here is the call graph for this function:</div>

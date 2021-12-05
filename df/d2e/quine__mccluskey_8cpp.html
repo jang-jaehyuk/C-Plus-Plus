@@ -105,10 +105,11 @@ $(document).ready(function(){initNavTree('df/d2e/quine__mccluskey_8cpp.html','..
 <code>#include &lt;algorithm&gt;</code><br />
 <code>#include &lt;string&gt;</code><br />
 <code>#include &lt;cassert&gt;</code><br />
+<code>#include &lt;array&gt;</code><br />
 </div><div class="textblock"><div class="dynheader">
 Include dependency graph for quine_mccluskey.cpp:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../d5/db7/quine__mccluskey_8cpp__incl.svg" width="438" height="127"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d5/db7/quine__mccluskey_8cpp__incl.svg" width="514" height="127"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </div><table class="memberdecls">
@@ -215,20 +216,21 @@ Here is the call graph for this function:</div>
 <div class="line"><a id="l00437" name="l00437"></a><span class="lineno">  437</span>    <span class="keywordtype">string</span> out1(<span class="stringliteral">&quot;B&#39;C&#39; + CD&#39; + A&#39;BD&quot;</span>);   <span class="comment">/// expected output</span></div>
 <div class="line"><a id="l00438" name="l00438"></a><span class="lineno">  438</span>    <span class="keywordtype">string</span> out2(<span class="stringliteral">&quot;B&#39;C&#39; + BC + A&#39;B&#39; or A&#39;C&quot;</span>); <span class="comment">/// expected output</span></div>
 <div class="line"><a id="l00439" name="l00439"></a><span class="lineno">  439</span>    <span class="keywordtype">string</span> out3(<span class="stringliteral">&quot;B&#39;C&#39;D + A&#39;B&#39;C + A&#39;BC&#39; + BCD&quot;</span>); <span class="comment">/// expected output</span></div>
-<div class="line"><a id="l00440" name="l00440"></a><span class="lineno">  440</span>    uint32_t ex1[] = { 0, 1, 2, 5, 6, 7, 8, 9, 10, 14 };</div>
+<div class="line"><a id="l00440" name="l00440"></a><span class="lineno">  440</span>    <a class="code hl_classRef" target="_blank" href="http://en.cppreference.com/w/cpp/container/array.html">std::array&lt;uint32_t, 10&gt;</a> ex1;</div>
 <div class="line"><a id="l00441" name="l00441"></a><span class="lineno">  441</span>    cnt = <span class="keyword">sizeof</span>(ex1) / <span class="keyword">sizeof</span>(<span class="keywordtype">int</span>);</div>
 <div class="line"><a id="l00442" name="l00442"></a><span class="lineno">  442</span>    assert(out1.compare(quine.<a class="code hl_function" href="../../d9/de1/class_mc_cluskey.html#ac3e85501476e89d34c14af1b3ddb0f9a">quineExe</a>(ex1, cnt)));</div>
 <div class="line"><a id="l00443" name="l00443"></a><span class="lineno">  443</span>    <a class="code hl_classRef" target="_blank" href="http://en.cppreference.com/w/cpp/io/basic_ostream.html">cout</a> &lt;&lt; <a class="code hl_define" href="../../d7/d35/matrix__exponentiation_8cpp.html#a600eaf353befc174637855795f12d258">endl</a>;</div>
 <div class="line"><a id="l00444" name="l00444"></a><span class="lineno">  444</span> </div>
-<div class="line"><a id="l00445" name="l00445"></a><span class="lineno">  445</span>    uint32_t ex2[] = { 0, 1, 2, 3, 6, 7, 8, 9, 14, 15 };</div>
+<div class="line"><a id="l00445" name="l00445"></a><span class="lineno">  445</span>    <a class="code hl_classRef" target="_blank" href="http://en.cppreference.com/w/cpp/container/array.html">std::array&lt;uint32_t, 10&gt;</a> ex2;</div>
 <div class="line"><a id="l00446" name="l00446"></a><span class="lineno">  446</span>    cnt = <span class="keyword">sizeof</span>(ex2) / <span class="keyword">sizeof</span>(<span class="keywordtype">int</span>);</div>
 <div class="line"><a id="l00447" name="l00447"></a><span class="lineno">  447</span>    assert(out2.compare(quine.<a class="code hl_function" href="../../d9/de1/class_mc_cluskey.html#ac3e85501476e89d34c14af1b3ddb0f9a">quineExe</a>(ex2, cnt)));</div>
 <div class="line"><a id="l00448" name="l00448"></a><span class="lineno">  448</span>    <a class="code hl_classRef" target="_blank" href="http://en.cppreference.com/w/cpp/io/basic_ostream.html">cout</a> &lt;&lt; <a class="code hl_define" href="../../d7/d35/matrix__exponentiation_8cpp.html#a600eaf353befc174637855795f12d258">endl</a>;</div>
-<div class="line"><a id="l00449" name="l00449"></a><span class="lineno">  449</span> </div>
-<div class="line"><a id="l00450" name="l00450"></a><span class="lineno">  450</span>    uint32_t ex3[] = { 1, 2, 3, 4, 5, 7, 9, 15 };</div>
+<div class="line"><a id="l00449" name="l00449"></a><span class="lineno">  449</span>    </div>
+<div class="line"><a id="l00450" name="l00450"></a><span class="lineno">  450</span>    <a class="code hl_classRef" target="_blank" href="http://en.cppreference.com/w/cpp/container/array.html">std::array&lt;uint32_t, 8&gt;</a> ex3;</div>
 <div class="line"><a id="l00451" name="l00451"></a><span class="lineno">  451</span>    cnt = <span class="keyword">sizeof</span>(ex3) / <span class="keyword">sizeof</span>(<span class="keywordtype">int</span>);</div>
 <div class="line"><a id="l00452" name="l00452"></a><span class="lineno">  452</span>    assert(out3.compare(quine.<a class="code hl_function" href="../../d9/de1/class_mc_cluskey.html#ac3e85501476e89d34c14af1b3ddb0f9a">quineExe</a>(ex3, cnt)));</div>
 <div class="line"><a id="l00453" name="l00453"></a><span class="lineno">  453</span>}</div>
+<div class="ttc" id="aarray_html"><div class="ttname"><a href="http://en.cppreference.com/w/cpp/container/array.html">std::array</a></div></div>
 <div class="ttc" id="abasic_ostream_html"><div class="ttname"><a href="http://en.cppreference.com/w/cpp/io/basic_ostream.html">std::cout</a></div></div>
 <div class="ttc" id="aclass_mc_cluskey_html"><div class="ttname"><a href="../../d9/de1/class_mc_cluskey.html">McCluskey</a></div><div class="ttdoc">This class is the overall form @for implementing an algorithm.</div><div class="ttdef"><b>Definition:</b> quine_mccluskey.cpp:47</div></div>
 <div class="ttc" id="aclass_mc_cluskey_html_ac3e85501476e89d34c14af1b3ddb0f9a"><div class="ttname"><a href="../../d9/de1/class_mc_cluskey.html#ac3e85501476e89d34c14af1b3ddb0f9a">McCluskey::quineExe</a></div><div class="ttdeci">string quineExe(int *num, int cnt)</div><div class="ttdoc">execution function</div><div class="ttdef"><b>Definition:</b> quine_mccluskey.cpp:413</div></div>
