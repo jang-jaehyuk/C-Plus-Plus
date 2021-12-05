@@ -185,9 +185,9 @@ Private Attributes</h2></td></tr>
 <p>The selected number is initialized to 1 in this array. </p>
 <p >Initialize the member variable as a constructor. </p>
 <div class="fragment"><div class="line"><a id="l00056" name="l00056"></a><span class="lineno">   56</span>                {</div>
-<div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span>        <a class="code hl_functionRef" target="_blank" href="http://en.cppreference.com/w/cpp/string/wide/wmemset.html">wmemset</a>(select, 0, <span class="keyword">sizeof</span>(<span class="keywordtype">int</span>) * 16);</div>
+<div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span>        <a class="code hl_functionRef" target="_blank" href="http://en.cppreference.com/w/cpp/string/byte/memset.html">memset</a>(select, 0, <span class="keyword">sizeof</span>(<span class="keywordtype">int</span>) * 16);</div>
 <div class="line"><a id="l00058" name="l00058"></a><span class="lineno">   58</span>    }</div>
-<div class="ttc" id="awmemset_html"><div class="ttname"><a href="http://en.cppreference.com/w/cpp/string/wide/wmemset.html">std::wmemset</a></div><div class="ttdeci">T wmemset(T... args)</div></div>
+<div class="ttc" id="amemset_html"><div class="ttname"><a href="http://en.cppreference.com/w/cpp/string/byte/memset.html">std::memset</a></div><div class="ttdeci">T memset(T... args)</div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -559,7 +559,7 @@ Here is the call graph for this function:</div>
 <div class="line"><a id="l00259" name="l00259"></a><span class="lineno">  259</span>        <a class="code hl_classRef" target="_blank" href="http://en.cppreference.com/w/cpp/container/vector.html">vector&lt;BitNode&gt;</a> epi;</div>
 <div class="line"><a id="l00260" name="l00260"></a><span class="lineno">  260</span>        <a class="code hl_classRef" target="_blank" href="http://en.cppreference.com/w/cpp/container/vector.html">vector&lt;int&gt;</a> epirow;</div>
 <div class="line"><a id="l00261" name="l00261"></a><span class="lineno">  261</span>        <a class="code hl_classRef" target="_blank" href="http://en.cppreference.com/w/cpp/container/array.html">std::array&lt;uint32_t, 16&gt;</a> picollect;</div>
-<div class="line"><a id="l00262" name="l00262"></a><span class="lineno">  262</span>        <a class="code hl_functionRef" target="_blank" href="http://en.cppreference.com/w/cpp/string/wide/wmemset.html">wmemset</a>(picollect, 0, <span class="keyword">sizeof</span>(<span class="keywordtype">int</span>) * 16);</div>
+<div class="line"><a id="l00262" name="l00262"></a><span class="lineno">  262</span>        <a class="code hl_functionRef" target="_blank" href="http://en.cppreference.com/w/cpp/string/byte/memset.html">memset</a>(picollect, 0, <span class="keyword">sizeof</span>(<span class="keywordtype">int</span>) * 16);</div>
 <div class="line"><a id="l00263" name="l00263"></a><span class="lineno">  263</span>        <span class="keywordflow">for</span> (uint32_t i = 0; i &lt; pi.<a class="code hl_functionRef" target="_blank" href="http://en.cppreference.com/w/cpp/container/vector/size.html">size</a>(); i++) {              <span class="comment">// Counts the number that became pi</span></div>
 <div class="line"><a id="l00264" name="l00264"></a><span class="lineno">  264</span>            <span class="keywordflow">for</span> (uint32_t j = 0; j &lt; pi[i].v.<a class="code hl_functionRef" target="_blank" href="http://en.cppreference.com/w/cpp/container/vector/size.html">size</a>(); j++) {     <span class="comment">// (since we only have to have one numeric value in the column to find the epi).</span></div>
 <div class="line"><a id="l00265" name="l00265"></a><span class="lineno">  265</span>                picollect[pi[i].v[j]]++;</div>
@@ -837,7 +837,7 @@ Here is the call graph for this function:</div>
 <div class="line"><a id="l00402" name="l00402"></a><span class="lineno">  402</span>            }</div>
 <div class="line"><a id="l00403" name="l00403"></a><span class="lineno">  403</span>        }</div>
 <div class="line"><a id="l00404" name="l00404"></a><span class="lineno">  404</span>        epi.<a class="code hl_functionRef" target="_blank" href="http://en.cppreference.com/w/cpp/container/vector/clear.html">clear</a>();</div>
-<div class="line"><a id="l00405" name="l00405"></a><span class="lineno">  405</span>        <a class="code hl_functionRef" target="_blank" href="http://en.cppreference.com/w/cpp/string/wide/wmemset.html">wmemset</a>(select, 0, <span class="keyword">sizeof</span>(<span class="keywordtype">int</span>) * 16);</div>
+<div class="line"><a id="l00405" name="l00405"></a><span class="lineno">  405</span>        <a class="code hl_functionRef" target="_blank" href="http://en.cppreference.com/w/cpp/string/byte/memset.html">memset</a>(select, 0, <span class="keyword">sizeof</span>(<span class="keywordtype">int</span>) * 16);</div>
 <div class="line"><a id="l00406" name="l00406"></a><span class="lineno">  406</span>        <span class="keywordflow">return</span> outst;</div>
 <div class="line"><a id="l00407" name="l00407"></a><span class="lineno">  407</span>    }</div>
 <div class="ttc" id="abasic_ostream_html"><div class="ttname"><a href="http://en.cppreference.com/w/cpp/io/basic_ostream.html">std::cout</a></div></div>
