@@ -21,7 +21,7 @@
 <!-- Node2 -->
 <g id="node2" class="node">
 <title>Node2</title>
-<g id="a_node2"><a xlink:href="../../d9/de1/class_mc_cluskey.html#ade670fff7c8f07a9698d34c56c370c69" target="_top" xlink:title="function that counts the number of 1">
+<g id="a_node2"><a xlink:href="../../d9/de1/class_mc_cluskey.html#aa9dffa96d75218e361296745f5be3b9a" target="_top" xlink:title="function that counts the number of 1">
 <polygon fill="white" stroke="black" points="162,-38.5 162,-57.5 263,-57.5 263,-38.5 162,-38.5"/>
 <text text-anchor="middle" x="212.5" y="-45.5" font-family="Helvetica,sans-Serif" font-size="10.00">McCluskey::count1</text>
 </a>
