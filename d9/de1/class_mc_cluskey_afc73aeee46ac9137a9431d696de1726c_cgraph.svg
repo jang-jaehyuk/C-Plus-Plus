@@ -21,7 +21,7 @@
 <!-- Node2 -->
 <g id="node2" class="node">
 <title>Node2</title>
-<g id="a_node2"><a xlink:href="../../d9/de1/class_mc_cluskey.html#aae678c39980296707e8ebf4e92a246ef" target="_top" xlink:title="If there is only one bit difference among the two nodes, a function to know the bit position.">
+<g id="a_node2"><a xlink:href="../../d9/de1/class_mc_cluskey.html#a99f36c7ec89a9bd6d087fc652c9a9ba5" target="_top" xlink:title="If there is only one bit difference among the two nodes, a function to know the bit position.">
 <polygon fill="white" stroke="black" points="157,-152.5 157,-171.5 273,-171.5 273,-152.5 157,-152.5"/>
 <text text-anchor="middle" x="215" y="-159.5" font-family="Helvetica,sans-Serif" font-size="10.00">McCluskey::bitposition</text>
 </a>
@@ -36,7 +36,7 @@
 <!-- Node3 -->
 <g id="node3" class="node">
 <title>Node3</title>
-<g id="a_node3"><a xlink:href="../../d9/de1/class_mc_cluskey.html#a8e41ae4d8040aa229f5996f33961f4ab" target="_top" xlink:title="This function checks how many bits of two nodes are different.">
+<g id="a_node3"><a xlink:href="../../d9/de1/class_mc_cluskey.html#a2ecc243d3f015b34bb741a995764d86b" target="_top" xlink:title="This function checks how many bits of two nodes are different.">
 <polygon fill="white" stroke="black" points="155,-114.5 155,-133.5 275,-133.5 275,-114.5 155,-114.5"/>
 <text text-anchor="middle" x="215" y="-121.5" font-family="Helvetica,sans-Serif" font-size="10.00">McCluskey::comparebit</text>
 </a>
@@ -51,7 +51,7 @@
 <!-- Node4 -->
 <g id="node4" class="node">
 <title>Node4</title>
-<g id="a_node4"><a xlink:href="../../d9/de1/class_mc_cluskey.html#aa9dffa96d75218e361296745f5be3b9a" target="_top" xlink:title="function that counts the number of 1">
+<g id="a_node4"><a xlink:href="../../d9/de1/class_mc_cluskey.html#ade670fff7c8f07a9698d34c56c370c69" target="_top" xlink:title="function that counts the number of 1">
 <polygon fill="white" stroke="black" points="164.5,-76.5 164.5,-95.5 265.5,-95.5 265.5,-76.5 164.5,-76.5"/>
 <text text-anchor="middle" x="215" y="-83.5" font-family="Helvetica,sans-Serif" font-size="10.00">McCluskey::count1</text>
 </a>

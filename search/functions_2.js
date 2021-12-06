@@ -57,7 +57,7 @@ var searchData=
   ['binomial_5fx_5fsuccesses_54',['binomial_x_successes',['../d6/db0/binomial__dist_8cpp.html#a19ae0a6a2bd200fd1eb0e31b2bf4cc76',1,'binomial_dist.cpp']]],
   ['binomialcoeffsum_55',['binomialCoeffSum',['../dd/d47/namespacemath.html#ae1ca505751f5a6d3977b86372cfe75ea',1,'math']]],
   ['bitcount_56',['bitCount',['../d4/d48/hamming__distance_8cpp.html#a65d845df3fecff7087a2126c7b72030b',1,'bit_manipulation::hamming_distance']]],
-  ['bitposition_57',['bitposition',['../d9/de1/class_mc_cluskey.html#aae678c39980296707e8ebf4e92a246ef',1,'McCluskey']]],
+  ['bitposition_57',['bitposition',['../d9/de1/class_mc_cluskey.html#a99f36c7ec89a9bd6d087fc652c9a9ba5',1,'McCluskey']]],
   ['bitset_58',['bitset',['http://en.cppreference.com/w/cpp/utility/bitset/bitset.html',0,'std::bitset']]],
   ['boolalpha_59',['boolalpha',['http://en.cppreference.com/w/cpp/io/manip/boolalpha.html',0,'std']]],
   ['breadth_5ffirst_5fsearch_60',['breadth_first_search',['../dc/d61/classgraph_1_1_graph.html#a3755ec9e6a842238c7f4aac10b661981',1,'graph::Graph']]],
