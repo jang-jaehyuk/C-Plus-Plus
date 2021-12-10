@@ -1,5 +1,5 @@
 <map id="McCluskey::selectNum" name="McCluskey::selectNum">
-<area shape="rect" id="node1" title="This is a function that receives a number from 0 to 15, creates a node, and adds it to the vector...." alt="" coords="5,31,163,57"/>
-<area shape="rect" id="node2" href="$d9/de1/class_mc_cluskey.html#ade670fff7c8f07a9698d34c56c370c69" title="function that counts the number of 1" alt="" coords="221,5,356,32"/>
-<area shape="rect" id="node3" href="/Users/runner/work/C-Plus-Plus/C-Plus-Plus/doc/cppreference-doxygen-web.tag.xml$cpp/container/vector/push_back.html#" title=" " alt="" coords="211,56,367,83"/>
+<area shape="rect" id="node1" title="This is a function that receives a number from 0 to 15, creates a node, and adds it to the vector...." alt="" coords="5,31,164,57"/>
+<area shape="rect" id="node2" href="$d9/de1/class_mc_cluskey.html#ade670fff7c8f07a9698d34c56c370c69" title="function that counts the number of 1" alt="" coords="222,5,357,32"/>
+<area shape="rect" id="node3" href="/Users/runner/work/C-Plus-Plus/C-Plus-Plus/doc/cppreference-doxygen-web.tag.xml$cpp/container/vector/push_back.html#" title=" " alt="" coords="212,56,367,83"/>
 </map>

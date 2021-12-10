@@ -1,7 +1,7 @@
 <map id="McCluskey::delNotPi" name="McCluskey::delNotPi">
-<area shape="rect" id="node1" title="Function to delete if term is not pi." alt="" coords="5,81,151,108"/>
-<area shape="rect" id="node2" href="/Users/runner/work/C-Plus-Plus/C-Plus-Plus/doc/cppreference-doxygen-web.tag.xml$cpp/container/vector/begin.html#" title=" " alt="" coords="207,5,331,32"/>
-<area shape="rect" id="node3" href="/Users/runner/work/C-Plus-Plus/C-Plus-Plus/doc/cppreference-doxygen-web.tag.xml$cpp/container/vector/erase.html#" title=" " alt="" coords="207,56,331,83"/>
-<area shape="rect" id="node4" href="$d9/de1/class_mc_cluskey.html#a359be1debe7c492deb1bb565704842e1" title="function that checks whether the selected number belongs to the next column" alt="" coords="199,107,340,133"/>
-<area shape="rect" id="node5" href="/Users/runner/work/C-Plus-Plus/C-Plus-Plus/doc/cppreference-doxygen-web.tag.xml$cpp/container/vector/size.html#" title=" " alt="" coords="212,157,327,184"/>
+<area shape="rect" id="node1" title="Function to delete if term is not pi." alt="" coords="5,81,152,108"/>
+<area shape="rect" id="node2" href="/Users/runner/work/C-Plus-Plus/C-Plus-Plus/doc/cppreference-doxygen-web.tag.xml$cpp/container/vector/begin.html#" title=" " alt="" coords="210,5,333,32"/>
+<area shape="rect" id="node3" href="/Users/runner/work/C-Plus-Plus/C-Plus-Plus/doc/cppreference-doxygen-web.tag.xml$cpp/container/vector/erase.html#" title=" " alt="" coords="209,56,333,83"/>
+<area shape="rect" id="node4" href="$d9/de1/class_mc_cluskey.html#a359be1debe7c492deb1bb565704842e1" title="function that checks whether the selected number belongs to the next column" alt="" coords="200,107,343,133"/>
+<area shape="rect" id="node5" href="/Users/runner/work/C-Plus-Plus/C-Plus-Plus/doc/cppreference-doxygen-web.tag.xml$cpp/container/vector/size.html#" title=" " alt="" coords="213,157,329,184"/>
 </map>
